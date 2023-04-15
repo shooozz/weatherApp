@@ -2,15 +2,131 @@
   margin: 0 auto;
   box-sizing: border-box;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 .container {
   width: 300px;
+  background: #F2F3F7;
+  box-shadow: -2px -2px 4px #FFFFFF, 50px 50px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
 }
 .title {
    text-align: center;
+   color: #222222;
+   padding-top: 10px;
+}
+.info {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.info-date {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  background: #F2F3F7;
+  box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9), 5px 5px 8px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+  padding: 15px 23px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  background-image: url(bg-main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: 300px;
+}
+.main-button img {
+  width: 18px;
+  height: auto;
+  margin: 0 0 0 20px;
+}
+.main-button p {
+  margin: 10px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 28px;
+  color: #067CF8;
+}
+.main-button {
+  background: #F2F3F7;
+  box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9), 5px 5px 8px rgba(0, 0, 0, 0.07);
+  border-radius: 135px;
+  width: 190px;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+.status {
+  margin: 0 20px;
+  width: 260px;
+  height: 115px;
+  background: #F2F3F7;
+  box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9), 5px 5px 8px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+}
+.status-icon {
+  padding: 15px 0 0 15px;
+}
+.status-inline {
+  padding: 30px 0 0 15px;
+}
+.footer {
+  padding: 20px 0;
+}
+.button {
+  margin: 0 auto;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  font-family: 'Arial';
+  font-weight: 700;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #067CF8;
+  padding: 20px 80px;
+  background: #F2F3F7;
+  box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9), 5px 5px 8px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  font-family: 'Arial';
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #ABABAB;
+  padding: 14px 0;
+  background: #F2F3F7;
+  box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9), 5px 5px 8px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+  border: none;
+}
+select::-ms-expand {  /* для IE */ 
+    display: none;
+}
+option {
+  color: #5c5a5a;
+  padding: 14px 0;
+  background: #F2F3F7;
+  font-family: 'Arial';
+  font-weight: 700;
+  padding: 10px;
 }
