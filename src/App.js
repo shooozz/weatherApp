@@ -6,6 +6,7 @@ function App() {
       <div className="container">
         <div className='title'>
           <h1>Moscow</h1>
+          <h2>Grozny</h2>
         </div>
       </div>
     </div>
