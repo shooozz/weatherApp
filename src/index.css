@@ -37,7 +37,7 @@
 .main {
   display: flex;
   justify-content: center;
-  background-image: url(bg-main.png);
+  background-image: url(image/bg-main.png);
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
